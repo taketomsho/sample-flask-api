@@ -7,5 +7,3 @@ app = Flask(__name__)
 def index():
     return jsonify({'name': 'alice',
                     'email': 'alice@outlook.com'})
-
-app.run()
